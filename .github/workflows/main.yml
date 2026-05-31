@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 on: push
 name: Deploy website on VPS
 jobs:
@@ -17,23 +16,3 @@ jobs:
              password: Student1234#*
              protocol: ftp
              server-dir: /var/www/html/rafalhachula
-=======
-on: push
-name: Deploy website on VPS
-jobs:
-    web-deploy:
-        name: Deploy
-        runs-on: ubuntu-latest
-        steps:
-        -  name: Get latest code
-           uses: actions/checkout@v6
-
-        -  name: Sync files
-           uses: SamKirkland/FTP-Deploy-Action@v4.4.0
-           with:
-             server: 20.215.35.36
-             username: student
-             password: Student1234#*
-             protocol: ftp
-             server-dir: /var/www/html/rafalhachula
->>>>>>> 88286c6ef5ce580a71ba4fb85c27af3022b865cf
