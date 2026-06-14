@@ -1,1 +1,1 @@
-test
+console.log("Test depoly poprzez github Actions");
