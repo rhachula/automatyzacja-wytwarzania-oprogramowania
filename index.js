@@ -1,1 +1,1 @@
-console.log("Test depoly poprzez github Actions");
+console.log("Test depoly poprzez github Actions!");
